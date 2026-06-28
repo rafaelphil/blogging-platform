@@ -1,7 +1,7 @@
 package com.rafael.blogging.user;
 
 import com.rafael.blogging.user.records.CreateUserRequest;
-import jakarta.persistence.EntityExistsException;
+import com.rafael.blogging.user.records.UserDto;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;

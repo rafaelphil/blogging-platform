@@ -1,9 +1,9 @@
 package com.rafael.blogging.post;
 
 import com.rafael.blogging.post.records.PostDto;
-import org.mapstruct.Mapper;
+import org.springframework.stereotype.Component;
 
-@Mapper
+@Component
 public class PostMapper {
     PostDto toPostDto(Post post) {
         return new PostDto(post.getId(),
